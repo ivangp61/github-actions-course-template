@@ -2,7 +2,7 @@ name: GIPHY generator
 
 on: 
   pull_request: 
-    types: [opened, edited]
+    types: [edited]
 
 jobs:
   giphy-generator: 
