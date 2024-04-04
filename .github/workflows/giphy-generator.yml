@@ -2,6 +2,7 @@ name: GIPHY generator
 
 on: 
   pull_request: 
+    branches: [ "master" ]
     types: [edited]
 
 jobs:
