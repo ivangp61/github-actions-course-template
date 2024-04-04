@@ -14,7 +14,6 @@ jobs:
 
     steps: 
       - name: GIPHY Generator
-        id: giphy_generator
         uses: IAmHughes/giphy-generator@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
